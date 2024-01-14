@@ -66,7 +66,7 @@ li{
 
 a{
   text-decoration: none;
-  color: white;
+  color: gray;
 }
 
 .cardholder{
@@ -77,10 +77,10 @@ a{
 
 .body{
   display: flex;
-  flex: 1;
-  align-items: center;
+  align-items: space-between;
   justify-content: center;
   flex-direction: column;
+  flex:1;
 }
 
 .quote{
@@ -88,13 +88,39 @@ a{
   background-color: #e5e7eb;
   font-size: 36px;
   font-style: italic;
-  font-weight: light;
+  font-weight: 300;
   order:2;
+  flex:1;
+  padding: 36px;
+  justify-content: center;
+  margin-top: 36px;
+  margin-bottom: 36px;
 }
 
+#name{
+  font-size: 48px;
+  font-weight: 900;
+  color: black;
+  display: flex;
+  order: 4;
+  justify-content: center;
+  align-items: center;
+}
+
+.musicbutton{
+  background: blue;
+  border: 8px solid orange;
+  color: white;
+  order: 3;
+  justify-content: center;
+  display: flex;
+  gap:36px;
+}
+
+
 button.continue {
-  background: royalblue;
-  border: 8px solid royalblue;
+  background: green;
+  border: 8px solid black;
   color: white;
   order: 3;
 }
